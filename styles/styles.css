@@ -12,12 +12,7 @@
 
  :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
-  --background-color: #fff;
-  --overlay-background-color: #eee;
-  --highlight-background-color: #ccc;
-  --text-color: #000;
+
 
   /* fonts */
   --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
@@ -54,9 +49,12 @@
 }
 
 body {
-  font-size: var(--body-font-size-m);
+  font-family: 'Chronicle Display A', 'Chronicle Display B', serif;
+  font-weight: 300;
+  line-height: 1.25;
   margin: 0;
-  font-family: var(--body-font-family);
+
+ 
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -66,27 +64,7 @@ header {
   height: var(--nav-height);
 }
 
-h1, h2, h3,
-h4, h5, h6 {
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  margin-top: 1em;
-  margin-bottom: .5em;
-  scroll-margin: calc(var(--nav-height) + 1em);
-}
 
-h1 { font-size: var(--heading-font-size-xxl) }
-h2 { font-size: var(--heading-font-size-xl) }
-h3 { font-size: var(--heading-font-size-l) }
-h4 { font-size: var(--heading-font-size-m) }
-h5 { font-size: var(--heading-font-size-s) }
-h6 { font-size: var(--heading-font-size-xs) }
-
-p, dl, ol, ul, pre, blockquote {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
 
 hr {
   margin-top: 1.5em;
@@ -128,28 +106,26 @@ a:hover {
 
 /* buttons */
 a.button:any-link, button {
-  font-family: var(--body-font-family);
-  display: inline-block;
-  box-sizing: border-box;
-  text-decoration: none;
-  border: 2px solid transparent;
-  padding: 5px 30px;
-  text-align: center;
-  font-style: normal;
-  font-weight: 600;
-  cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
-  margin: 16px 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  border-radius: 30px;
+  color: #000;
+  line-height: 50px;
+  font-size: 40px;
+  font-family: 'Chronicle Display A', 'Chronicle Display B', serif;
+  font-weight: 100;
+  line-height: 52px;
 }
 
+h6 >a {
+ 
+  font-size: 16px;
+  font-family: 'Open Sans', open-sans, sans-serif;
+  color: #666666;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-bottom: 28px;
+}
 a.button:hover, a.button:focus, button:hover, button:focus  {
-  background-color: var(--link-hover-color);
-  cursor: pointer;
+  
+  color: #00a69b;
 }
 
 button:disabled, button:disabled:hover {
@@ -227,7 +203,7 @@ main .section {
 
 @media (min-width: 900px) {
   .section > div {
-    max-width: 1200px;
+   
     margin: auto;
   }
 }
