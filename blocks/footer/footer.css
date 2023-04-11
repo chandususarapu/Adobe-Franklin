@@ -14,7 +14,8 @@ footer {
 }
 
 footer div > div{
-  max-width: 1200px;
+  max-width: none;
+  min-width: auto;
   margin: auto;
   color: #000000;
   font-family: 'Open Sans', open-sans, sans-serif;
@@ -47,7 +48,7 @@ footer div > div > ul > li > strong>  a {
   transition: all 500ms ease;
   z-index: 1;
 }
-a:hover {
+footer div > div > ul > li > strong>  a:hover {
   background-color: #9dd4cf;
   outline-width: 0;
 }

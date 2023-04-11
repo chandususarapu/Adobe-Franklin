@@ -17,7 +17,9 @@
   margin-bottom: 5px;
 
 }
-
+.columns > div > div >p> a:hover {
+  color: #00a69b;
+}
 .columns > div > .columns-img-col img {
   display: block;
 }
