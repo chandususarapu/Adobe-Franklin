@@ -1,14 +1,53 @@
 footer {
-  padding: 2rem;
-  background-color: var(--overlay-background-color);
-  font-size: var(--body-font-size-s);
+  color: #000000;
+  
+    font-family: 'Open Sans', open-sans, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+  background-color: #ffffff;
+  
+  position: -ms-page;
+  padding: 100px 0;
+  border-top: 1px solid #d8d8d8;
+  font-size: 20px;
+  line-height: 1.75;
 }
 
-footer .footer {
+footer div > div{
   max-width: 1200px;
   margin: auto;
+  color: #000000;
+  font-family: 'Open Sans', open-sans, sans-serif;
 }
 
-footer .footer p {
-  margin: 0;
+footer div > div > ul{
+display: inline;
+  list-style: none;
+  font-size: 20px;
+    line-height: 1.75;
+}
+
+footer div > div > ul > li{
+  display: inline;
+  list-style: none;
+  font-size: 20px;
+  line-height: 1.75;
+}
+footer div > div > ul > li > strong>  a {
+  background: linear-gradient(to top, #9dd4cf, #9dd4cf 100%, transparent 100%, transparent);
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+  color: #000000;
+  display: inline;
+  line-height: 1em;
+  padding: 0;
+  position: relative;
+  text-decoration: none;
+  transition: all 500ms ease;
+  z-index: 1;
+}
+a:hover {
+  background-color: #9dd4cf;
+  outline-width: 0;
 }

@@ -1,7 +1,7 @@
 .topics{
   font-family: 'Chronicle Display A', 'Chronicle Display B', serif;
     font-size: 13.6px;
-    position: absolute;
+    position: relative;
     font-weight: bold;
     margin: 1ex 0;
     top: 0;
@@ -17,6 +17,7 @@
 
 
 .topics > div > div> ul {
+
   display: block;
   list-style: none;
   position: inherit;
