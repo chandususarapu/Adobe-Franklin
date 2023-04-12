@@ -1,4 +1,4 @@
-footer {
+.footer {
   color: #000000;
   
     font-family: 'Open Sans', open-sans, sans-serif;
@@ -13,7 +13,7 @@ footer {
   line-height: 1.75;
 }
 
-footer div > div{
+.footer div > div{
   max-width: none;
   min-width: auto;
   margin: auto;
@@ -21,20 +21,20 @@ footer div > div{
   font-family: 'Open Sans', open-sans, sans-serif;
 }
 
-footer div > div > ul{
+.footer div > div > ul{
 display: inline;
   list-style: none;
   font-size: 20px;
     line-height: 1.75;
 }
 
-footer div > div > ul > li{
+.footer div > div > ul > li{
   display: inline;
   list-style: none;
   font-size: 20px;
   line-height: 1.75;
 }
-footer div > div > ul > li > strong>  a {
+.footer div > div > ul > li > strong>  a {
   background: linear-gradient(to top, #9dd4cf, #9dd4cf 100%, transparent 100%, transparent);
   background-position: center 100%;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@ footer div > div > ul > li > strong>  a {
   transition: all 500ms ease;
   z-index: 1;
 }
-footer div > div > ul > li > strong>  a:hover {
+.footer div > div > ul > li > strong>  a:hover {
   background-color: #9dd4cf;
   outline-width: 0;
 }

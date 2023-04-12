@@ -26,8 +26,11 @@
   line-height: 52px;
 
 }
+.text-wrapper:nth-child(even) {
+  background-color:  #f7f5f3;;
+}
 .text-wrapper:nth-child(odd) {
-  background-color:rgba(235, 239, 217, 0.875);
+background-color: #fff;
 }
 .text > div > h6 >a {
   font-size: 16px;

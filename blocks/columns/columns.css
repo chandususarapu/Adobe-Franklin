@@ -6,7 +6,10 @@
   margin-bottom: 10px;
 }
 .columns > div:nth-child(even) {
-  background-color:white;
+  background-color: #f7f5f3;;
+}
+.columns > div:nth-child(odd) {
+background-color: #fff;
 }
 .columns img {
   width: fit-content;

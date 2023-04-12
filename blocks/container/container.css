@@ -27,7 +27,26 @@
     margin-top: -25ex;
    
 }
-
+.container > div> div> h2{
+  font-size: 40px;
+  line-height: normal;
+  text-transform: none;
+    margin: 0;
+    font-family: 'Chronicle Display A', 'Chronicle Display B', serif;
+   
+    font-weight: bold;
+}
+.container > div> div> h3{
+  max-width: none;
+  margin: 0 auto;
+  padding-bottom: 12px;
+  text-align: left;
+    font-family: 'Chronicle Display A', 'Chronicle Display B', serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    margin: 0;
+}
 .container > div> div> h5{
  
   display: inline-block;
@@ -43,6 +62,76 @@
   margin-bottom: 75px;
 
 }
+.container > div > div > p{
+    font-family: 'Open Sans', open-sans, sans-serif;
+       font-size: 16px;
+    line-height: 27.2px;
+  font-weight: 500;
+  width: 100%;
+    max-width: 991px;
+}
+.container > div> div> h4{
+margin: 0 auto;
+font-size: 40px;
+line-height: 50px;
+padding-left: 0;
+padding-right: 0;
+max-width: 760px;
+
+  font-family: 'Chronicle Display A', 'Chronicle Display B', serif;
+  font-size: 25.6px;
+  font-weight: lighter;
+  letter-spacing: 0;
+  line-height: 1.4em;
+  margin-top: 5ex;
+  margin-bottom: 4ex;
+  text-transform: none;
+  text-align: left;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 35px;
+  margin-top: 5.5ex;
+}
+.container > div> div> ul{
+ 
+  list-style: none;
+  padding: 0;
+  margin: 1ex 0 3ex;
+  word-break: normal;
+  word-wrap: break-word;
+}
+
+.container > div> div> ul> li{
+ 
+  display: inline-block;
+  font-family: 'Open Sans', open-sans, sans-serif;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000000;
+  text-transform: uppercase;
+  /* padding-right: 5px; */
+  font-weight: bold;
+}
+
+.container > div> div> ol{
+list-style: none;
+  display: block;
+  padding: 0;
+  font-weight: bold;
+  margin-bottom: 40px;
+ 
+  word-break: normal;
+  word-wrap: break-word;
+  font-size: 20px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.container > div> div> p > strong{
+  font-size: 20px;
+  line-height: 35px;
+}
+
 
 
 
@@ -61,11 +150,52 @@
   margin-bottom: 75px;
 
 }
-
-.container > div> div> h3{
-  color: #000000;
-  font-family: 'Open Sans', open-sans, sans-serif;
-  font-size: 16px;
-  line-height: 1.5em
+#download-the-full-report{
+  text-align: center;
+  margin: 50px 0 0;
+    width: 100% !important;
+    max-width: none;
+    min-width: auto;
 }
 
+#download-the-full-report> a {
+  font-family: 'Open Sans', open-sans, sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: normal;
+  color: #000000;
+}
+
+.container div > div > h3 >  a:hover {
+  background-color: #9dd4cf;
+  
+    transition: all 500ms ease;
+  outline-width: 0;
+}
+
+.container > div> div> p > em>a{
+  font-family: 'Open Sans', open-sans, sans-serif;
+   line-height: normal;
+  color: #000000;
+}
+.container > div> div> p >em>a:hover{
+  background-color: #9dd4cf;
+  
+  transition: all 500ms ease;
+outline-width: 0;
+}
+.container > div> div> p > strong > em>a{
+  font-size: 20px;
+  line-height: 35px;
+  font-family: 'Open Sans', open-sans, sans-serif;
+  font-weight: bold;
+  
+  line-height: normal;
+  color: #000000;
+}
+.container > div> div> p >strong >em>a:hover{
+  background-color: #9dd4cf;
+  
+  transition: all 500ms ease;
+outline-width: 0;
+}
