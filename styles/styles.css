@@ -200,3 +200,29 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+#next{
+  width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#next > a {
+  font-size: 20px;
+  font-family: 'Open Sans', open-sans, sans-serif;
+  color: #000;
+  font-weight: bold;
+  padding: 5px 3px;
+  line-height: normal;
+  letter-spacing: 0;
+  display: inline-block;
+  min-width: 120px;
+  max-width: 205px;
+  margin-top: 0;
+  border: none;
+  background: none;
+  background-color: #e8e3dd;
+  text-align: center;
+}
+#next > a:hover{
+  background-color: #9DD4CF;;
+}

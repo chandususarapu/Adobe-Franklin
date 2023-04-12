@@ -2,8 +2,12 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: antiquewhite;
+  margin-bottom: 10px;
 }
-
+.columns > div:nth-child(even) {
+  background-color:white;
+}
 .columns img {
   width: fit-content;
 }
@@ -12,11 +16,6 @@
   order: 1;
 }
 
-.columns > div > .columns-img-col {
-  order: 0;
-  margin-bottom: 5px;
-
-}
 .columns > div > div >p> a:hover {
   color: #00a69b;
 }
@@ -34,5 +33,6 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+    background: inherit;
   }
 }

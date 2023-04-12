@@ -1,18 +1,17 @@
 .topics{
+  position: relative;
   font-family: 'Chronicle Display A', 'Chronicle Display B', serif;
-    font-size: 13.6px;
-    position: relative;
-    font-weight: bold;
-    margin: 1ex 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    float: right;
-    z-index: 100;
-    margin: 0;
-    padding: 2.3em 3.3em;
-    text-align: left;
-    background: #ecebea;
+  font-size: 13.6px;
+  font-weight: bold;
+  margin: 1ex 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  float: right;
+  z-index: 100;
+ 
+  text-align: left;
+  background: #ecebea;
 }
 
 
@@ -40,6 +39,7 @@
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 0;
+  margin-left: 20px;
   line-height: 30px;
   padding-bottom: 5px;
   border-bottom: 1px solid #000;
