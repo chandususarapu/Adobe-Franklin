@@ -150,15 +150,14 @@ list-style: none;
   margin-bottom: 75px;
 
 }
-#download-the-full-report{
+#want-to-learn-more-say-hello, #download-the-full-report{
   text-align: center;
   margin: 50px 0 0;
     width: 100% !important;
     max-width: none;
     min-width: auto;
 }
-
-#download-the-full-report> a {
+#want-to-learn-more-say-hello > a, #download-the-full-report> a {
   font-family: 'Open Sans', open-sans, sans-serif;
   font-weight: bold;
   font-size: 34px;
