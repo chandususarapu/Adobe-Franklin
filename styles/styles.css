@@ -106,7 +106,7 @@ a.button:any-link, button {
 }
 
 h6 >a {
- 
+  text-decoration:none;
   font-size: 16px;
   font-family: 'Open Sans', open-sans, sans-serif;
   color: #666666;
@@ -207,6 +207,7 @@ main .section.highlight {
 }
 
 #next > a {
+  text-decoration:none;
   font-size: 20px;
   font-family: 'Open Sans', open-sans, sans-serif;
   color: #000;

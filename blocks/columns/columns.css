@@ -19,6 +19,9 @@ background-color: #fff;
   order: 1;
 }
 
+.columns > div > div >p> a{
+  text-decoration:none;
+}
 .columns > div > div >p> a:hover {
   color: #00a69b;
 }
