@@ -1,5 +1,11 @@
+.container-wrapper{
+  position: relative;
+}
 .container{
+  margin-top: -40ex;
+  min-height: 40ex;
   display: block;
+  
   padding-top: 0;
   padding-bottom: 0;
   top: 0;
@@ -13,7 +19,8 @@
  
 }
 .container > div > div {
-      background: #f7f5f3;
+
+  background: #f7f5f3;
     margin-top: 0;
     font-family: 'Open Sans', open-sans, sans-serif;
     font-size: 16px;
